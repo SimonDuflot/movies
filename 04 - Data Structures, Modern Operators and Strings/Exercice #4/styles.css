@@ -1,0 +1,26 @@
+* {
+    background: linear-gradient(to right, #eaafc8, #654ea3);
+  }
+  
+  h1,
+  h2 {
+    font-family: Lato;
+    color: rgb(13, 70, 107);
+    text-align: center;
+    margin-top: 200px;
+  }
+  
+  textarea {
+    display: block;
+    width: 80%;
+    height: 100px;
+    margin: 0 auto;
+  }
+  
+  button {
+    display: block;
+    width: 100px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
