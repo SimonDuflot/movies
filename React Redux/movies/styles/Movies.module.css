@@ -1,0 +1,61 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 220px;
+  margin: 20px;
+}
+
+.image {
+  width: 220px;
+  border-radius: 10px 10px 0px 0px;
+  position: relative;
+}
+
+.image:hover {
+  transform: scale(1.18);
+  transition: all 0.3s ease;
+}
+
+.image:hover span .favorite {
+  opacity: 1;
+}
+
+span .favorite {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  transition: 0.5s ease;
+  opacity: 0;
+  bottom: 0;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.textContainer {
+  margin: 10px 0px 10px 00px;
+}
+
+.name {
+  font-weight: 600;
+}
+
+.description {
+  font-weight: 300;
+  font-size: 14px;
+  height: 140px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.vote {
+  font-size: 12px;
+}
+
+.favorite {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
